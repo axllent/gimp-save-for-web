@@ -9,11 +9,21 @@ This is a historical copy of the "Save for Web" plug-in for GIMP (found on [web.
 Save for Web plug-ins allows to experiment with various popular web format
 options. It shows an automatically updated preview and file size statistics.
 
-To build and install it, just ...
+## Requirements
 
-	./configure
-	make
-	make install
+- `libgimp2.0-dev`
+- `intltool`
 
+These requirements can be uninstalled once youre complete.
+
+### Install
+
+To build and install it, you just ...
+
+```shell
+./configure
+make
+make install
+```
  ... and it's there.
-
+ 
